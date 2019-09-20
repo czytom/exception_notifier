@@ -18,7 +18,7 @@ module ExceptionNotifier
       mailer_settings: nil,
       email_headers: {},
       mailer_parent: 'ActionMailer::Base',
-      template_path: 'exception_notifier',
+      template_path: 'templates/email',
       deliver_with: nil
     }.freeze
 
