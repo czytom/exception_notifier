@@ -18,5 +18,5 @@ Gem::Specification.new do |s|
   s.test_files = `git ls-files -- test`.split("\n")
   s.require_path = 'lib'
 
-  s.add_dependency('pony', '>= 4.0', '< 7')
+  s.add_dependency('pony')
 end
